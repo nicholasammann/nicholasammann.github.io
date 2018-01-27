@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="sidenav">
+<div class="nav">
   <a href="#">YTEditor</a>
   <a href="#">Services</a>
   <a href="#">Clients</a>
