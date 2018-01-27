@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <!-- link to style sheet -->
+    <link rel="stylesheet" href="style.css" type="text/css" />
+
+    <!-- title and description -->
+    <title>website title</title>
+    <meta name="author" content="nicholas ammann" />
+    <meta name="just a sad boi trying to learn about tools programming" />
+
+</head>
+
+<body>
+
+    <!-- sidebar menu functions -->
+    <script>
+        /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
+    
+
+    <!-- sidebar -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Projects</a>
+        <a href="#">Resume</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <div id="main">
+
+        <!-- Use any element to open the sidenav -->
+        <button position="" onclick="openNav()">open</button>
+
+        <center>
+            <h1>YTEditor (built with Qt5)</h1>
+        </center>
+
+        <p style="text-align: center;">
+            <img src="/assets/images/yteditor_empty.png" alt="Drawing" style="width: 700px;" />
+        </p>
+
+
+    </div>
+
+</body>
+
+</html>
