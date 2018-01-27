@@ -22,7 +22,7 @@ layout: default
     {% endif %}
   ...
   {% endfor %}
-  </ul>
+</ul>
 
 <center> 
 	<h1>YTEditor (built with Qt5)</h1> 
