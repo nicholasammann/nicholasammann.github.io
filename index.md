@@ -2,10 +2,12 @@
 layout: default
 ---
 
-# [](#header-1) YTEditor (built with Qt5)
+### [](#header-3) YTEditor (built with Qt5)
+
+
 
 <p style="text-align: center;">
-	<img src="/assets/images/yteditor_empty.png" alt="Drawing" style="width: 300px;"/>
+	<img src="/assets/images/yteditor_empty.png" alt="Drawing" style="width: 700px;"/>
 </p>
 	
 # [](#header-1)Header 1
