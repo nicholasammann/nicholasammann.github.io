@@ -2,8 +2,7 @@
 layout: default
 ---
 
-### [](#header-3) YTEditor (built with Qt5)
-
+## [](#header-2) YTEditor (built with Qt5)
 
 
 <p style="text-align: center;">
