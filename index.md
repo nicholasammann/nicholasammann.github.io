@@ -2,14 +2,11 @@
 layout: default
 ---
 
-###YTEditor (built with Qt5)
-<img src="/assets/images/yteditor_empty.png" alt="Drawing" style="width: 300px;"/>
-
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
+<p style="text-align: center;">
+	### YTEditor (built with Qt5)  
+	<img src="/assets/images/yteditor_empty.png" alt="Drawing" style="width: 300px;"/>
+</p>
+	
 # [](#header-1)Header 1
 
 This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
