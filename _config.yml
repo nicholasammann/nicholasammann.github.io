@@ -1,3 +1,5 @@
-remote_theme: jekyll-theme-midnight
-title: Nick Ammann Website
-description: A portfolio and dev blog of a student learning about tools programming.
+title: Midnight theme
+description: Midnight is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-midnight
