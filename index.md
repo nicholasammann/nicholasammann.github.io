@@ -31,7 +31,6 @@ layout: default
 	<h1>YTEditor (built with Qt5)</h1> 
 </center>
 
-
 <p style="text-align: center;">
 	<img src="/assets/images/yteditor_empty.png" alt="Drawing" style="width: 700px;"/>
 </p>
