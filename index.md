@@ -2,11 +2,7 @@
 layout: default
 ---
 
-
-
-### YTE
-
-![](G:\Projects\Repos\nicholasammann.github.io\assets\images\yteditor_empty.png)
+![YTEditor (built with Qt5)]({{assets\images\yteditor_empty.png | absolute_url}})
 
 
 There should be whitespace between paragraphs.
