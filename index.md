@@ -4,9 +4,8 @@ layout: default
 
 <div class="sidenav">
   <a href="#">Projects</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
-  <a href="#">Contact</a>
+  <a href="#">Resume</a>
+  <a href="#">About</a>
 </div>
 
 <center> 
