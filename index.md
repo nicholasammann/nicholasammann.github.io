@@ -2,7 +2,31 @@
 layout: default
 ---
 
-<center> <h1>YTEditor (built with Qt5)</h1> </center>
+<ul class="nav" id="menu">
+  {% for link in include.menusource %}
+  ...
+    {% if link.submenu %}
+    <ul>
+       {% for sublink in link.submenu %}
+       ...
+         {% if sublink.submenu %}
+           <ul>
+             {% for subsublink in sublink.submenu %}
+              ...
+             {% endfor %}
+           </ul>
+         {% endif %}
+       ...
+       {% endfor %}
+    </ul>  
+    {% endif %}
+  ...
+  {% endfor %}
+  </ul>
+
+<center> 
+	<h1>YTEditor (built with Qt5)</h1> 
+</center>
 
 
 <p style="text-align: center;">
