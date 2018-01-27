@@ -2,27 +2,12 @@
 layout: default
 ---
 
-<ul class="nav" id="menu">
-  {% for link in include.menusource %}
-  ...
-    {% if link.submenu %}
-    <ul>
-       {% for sublink in link.submenu %}
-       ...
-         {% if sublink.submenu %}
-           <ul>
-             {% for subsublink in sublink.submenu %}
-              ...
-             {% endfor %}
-           </ul>
-         {% endif %}
-       ...
-       {% endfor %}
-    </ul>  
-    {% endif %}
-  ...
-  {% endfor %}
-</ul>
+<div class="sidenav">
+  <a href="#">YTEditor</a>
+  <a href="#">Services</a>
+  <a href="#">Clients</a>
+  <a href="#">Contact</a>
+</div>
 
 <center> 
 	<h1>YTEditor (built with Qt5)</h1> 
