@@ -3,7 +3,8 @@ layout: default
 ---
 
 <p style="text-align: center;">
-	### YTEditor (built with Qt5)  
+	
+	# [](#header-1) YTEditor (built with Qt5)  
 	<img src="/assets/images/yteditor_empty.png" alt="Drawing" style="width: 300px;"/>
 </p>
 	
