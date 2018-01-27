@@ -6,7 +6,7 @@ layout: default
 
 ### YTE
 
-![](G:\Projects\Repos\nicholasammann.github.io\assets\images\yteditor_empty.png "YTEditor (built with Qt5)")
+![](G:\Projects\Repos\nicholasammann.github.io\assets\images\yteditor_empty.png)
 
 
 There should be whitespace between paragraphs.
