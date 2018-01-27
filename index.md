@@ -2,9 +2,12 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
 
-[Link to another page](another-page).
+
+### YTE
+
+![](G:\Projects\Repos\nicholasammann.github.io\assets\images\yteditor_empty.png "YTEditor (built with Qt5)")
+
 
 There should be whitespace between paragraphs.
 
