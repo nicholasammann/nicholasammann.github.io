@@ -27,6 +27,8 @@ layout: default
 <!-- Use any element to open the sidenav -->
 <button onclick="openNav()">open</button>
 
+
+<div id="main">
 <center> 
 	<h1>YTEditor (built with Qt5)</h1> 
 </center>
@@ -146,3 +148,4 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
+</div>
