@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![YTEditor (built with Qt5)](/assets/images/yteditor_empty.png =500x500)
+![YTEditor (built with Qt5)]({{/assets/images/yteditor_empty.png | absolute_url}} =500x500)
 
 
 There should be whitespace between paragraphs.
