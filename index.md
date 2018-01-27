@@ -10,7 +10,7 @@ layout: default
 </div>
 
 <!-- Use any element to open the sidenav -->
-<span onclick="openNav()">open</span>
+<button onclick="openNav()">open</button>
 
 <center> 
 	<h1>YTEditor (built with Qt5)</h1> 
