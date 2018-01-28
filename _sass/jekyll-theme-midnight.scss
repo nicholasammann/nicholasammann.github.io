@@ -154,6 +154,19 @@ dt {
   font-weight: normal;
 }
 
+
+/* sidebar activate button */
+
+.navbutton {
+
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
 /* The sidebar menu */
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
