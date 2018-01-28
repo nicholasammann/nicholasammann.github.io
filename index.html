@@ -26,10 +26,25 @@
             </section>
         </div>
 
-        <button id="navbutton">M</button>
+        <script>
+            /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+            }
+
+            /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+                document.getElementById("main").style.marginLeft = "0";
+            }
+        </script>
+
+        <a href="javascript:void(0)" class="navbutton" onclick="openNav()">&times;</a>
 
         <!-- sidebar -->
         <div class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
             <a href="#">Home</a>
             <a href="#">Projects</a>
             <a href="#">Resume</a>
