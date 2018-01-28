@@ -157,17 +157,17 @@ dt {
 
 /* sidebar activate button */
 .navbutton {
-    height: 30px;
-    width: 30px;
+    height: 40px;
+    width: 40px;
     position: fixed;
     top: 0;
     left: 0;
-    margin: 5px;
+    margin: 15px;
+    text-align: center;
     font-size: 24px;
-    align-content: center;
     background-color: white;
     color: #334E58;
-    border: 6px solid #000000; /* Green */
+    border: 6px solid #000000;
     border-radius: 4px;
 }
 
