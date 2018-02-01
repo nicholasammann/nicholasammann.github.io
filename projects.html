@@ -52,8 +52,17 @@
                 </div>
             </div>
 
-            <script>
 
+            <p style="text-align: center;">
+                <img class="imageSlide" src="/assets/images/yteditor_empty.png" style="margin-top: 2.5em;" />
+                <img class="imageSlide" src="/assets/images/yteditor_scene_blue.png" style="display: none" />
+                <img class="imageSlide" src="/assets/images/yteditor_scene_mixed.png" style="display: none" />
+
+                <button class="slideButton" onclick="plusDivs(-1)">&#10094</button>
+                <button class="slideButton" onclick="plusDivs(+1)">&#10095</button>
+            </p>
+
+            <script>
                 function showDivs(n) {
                     var i;
                     var x = document.getElementByClassName("imageSlide");
@@ -76,15 +85,6 @@
                 showDivs(slideIndex);
 
             </script>
-
-            <p style="text-align: center;">
-                <img class="imageSlide" src="/assets/images/yteditor_empty.png" style="margin-top: 2.5em;" />
-                <img class="imageSlide" src="/assets/images/yteditor_scene_blue.png" style="display: none" />
-                <img class="imageSlide" src="/assets/images/yteditor_scene_mixed.png" style="display: none" />
-
-                <button class="slideButton" onclick="plusDivs(-1)">&#10094</button>
-                <button class="slideButton" onclick="plusDivs(+1)">&#10095</button>
-            </p>
 
         </div>
 
