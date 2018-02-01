@@ -63,6 +63,10 @@
             </p>
 
             <script>
+
+                var slideIndex = 1;
+                showDivs(slideIndex);
+                
                 function showDivs(n) {
                     var i;
                     var x = document.getElementByClassName("imageSlide");
@@ -80,9 +84,6 @@
                 function plusDivs(n) {
                     showDivs(slideIndex += n);
                 }
-
-                var slideIndex = 1;
-                showDivs(slideIndex);
 
             </script>
 
