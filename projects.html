@@ -51,15 +51,45 @@
                     <hr>
                 </div>
             </div>
+
             <p style="text-align: center;">
-                <img src="/assets/images/yteditor_empty.png" alt="Drawing" style="width: 700px; margin-top: 2.5em;" />
+                <img class="imageSlide" src="/assets/images/yteditor_empty.png" alt="Drawing" style="margin-top: 2.5em;" />
+                <img class="imageSlide" src="/assets/images/yteditor_scene_blue.png" alt="Drawing" />
+                <img class="imageSlide" src="/assets/images/yteditor_scene_mixed.png" alt="Drawing" />
             </p>
-            <p style="text-align: center;">
-                <img src="/assets/images/yteditor_scene_blue.png" alt="Drawing" style="width: 700px;" />
-            </p>
-            <p style="text-align: center;">
-                <img src="/assets/images/yteditor_scene_mixed.png" alt="Drawing" style="width: 700px;" />
-            </p>
+
+            <button class="slideButton" onclick="plusDivs(-1)">&#10094</button>
+            <button class="slideButton" onclick="plusDivs(+1)">&#10095</button>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementByClassName("imageSlide");
+
+                    if (n > x.length) { slideIndex = 1 }
+
+                    if (n < 1) { slideIndex = x.length };
+
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                }
+
+            </script>
+
+
+
+
+
+
         </div>
 
 
