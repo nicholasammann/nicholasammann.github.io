@@ -53,16 +53,10 @@
             </div>
 
             <script>
-                var slideIndex = 1;
-                showDivs(slideIndex);
-
-                function plusDivs(n) {
-                    showDivs(slideIndex += n);
-                }
 
                 function showDivs(n) {
                     var i;
-                    var x = document.getElementByClassName(".imageSlide");
+                    var x = document.getElementByClassName("imageSlide");
 
                     if (n > x.length) { slideIndex = 1 }
 
@@ -73,6 +67,13 @@
                     }
                     x[slideIndex - 1].style.display = "block";
                 }
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                var slideIndex = 1;
+                showDivs(slideIndex);
 
             </script>
 
