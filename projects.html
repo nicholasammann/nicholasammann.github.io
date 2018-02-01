@@ -57,38 +57,24 @@
                     <img class="imageSlide" src="/assets/images/yteditor_empty.png">
                     <img class="imageSlide" src="/assets/images/yteditor_scene_blue.png">
                     <img class="imageSlide" src="/assets/images/yteditor_scene_mixed.png">
-                    
-                    <button class="slideButton" onclick="plusDivs(-1)">&#10094</button>
-                    <button class="slideButton" onclick="plusDivs(+1)">&#10095</button>
                 </center>
             </div>
 
             <script>
 
                 var slideIndex = 1;
-                showDivs(slideIndex);
-                
-                function showDivs(n) {
+                carousel();
+
+                function carousel() {
                     var i;
                     var x = document.getElementsByClassName("imageSlide");
-
-                    if (n > x.length) {
-                        slideIndex = 1;
-                    }
-
-                    if (n < 1) {
-                        slideIndex = x.length;
-                    };
-
                     for (i = 0; i < x.length; i++) {
                         x[i].style.display = "none";
                     }
-
+                    slideIndex++;
+                    if (slideIndex > x.length) { slideIndex = 1 }
                     x[slideIndex - 1].style.display = "block";
-                }
-
-                function plusDivs(n) {
-                    showDivs(slideIndex += n);
+                    setTimeout(carousel, 2000); // Change image every 2 seconds
                 }
 
             </script>
