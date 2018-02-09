@@ -155,6 +155,17 @@ dt {
 }
 
 
+.banner {
+    width: 100%; 
+    height: 200px;
+    position: fixed;
+    z-index: 1; /* Stay on top */
+    top: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+}
+
+
 // image for slideshow
 .imageSlide {
     width: 650px;
