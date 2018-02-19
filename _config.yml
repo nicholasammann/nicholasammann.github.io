@@ -1,10 +1,10 @@
-title: Ezora Theme!
-email: git@ezrasavard.com
-greeting: Welcome to the Ezora Sample Site
+title: Nick Ammann
+email: ammannnicholas@gmail.com
+greeting: Nick Ammann
 description: > # this means to ignore newlines until another tag
     Ezora is a responsive Jekyll theme with a clean single column layout, nifty text overlays for images and a mobile friendly navigation bar.
-github:  ezrasavard
-linkedin: ezrasavard
+github:  nicholasammann
+linkedin: nicholasammann
 favicon: favicon.png
 
 # Build settings
