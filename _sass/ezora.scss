@@ -59,6 +59,9 @@ h1 {
     height: 215px;
 
     @media (min-width: 320px) and (max-width: 480px) {
+        margin: auto;
+        width: auto;
+        height: auto;
         float: none;
     }
 }
