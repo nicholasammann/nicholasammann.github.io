@@ -6,7 +6,7 @@ permalink: "/projects/"
 cover: /media/homepage_banner.jpg
 ---
 
-<h1 class="top-text">The YTEditor</h1>
+<h1 class="top-text" align="left">The YTEditor</h1>
 
 <center>
     <img class="imageSlide" src="/media/yteditor_scene_blue.png">
