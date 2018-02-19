@@ -1,6 +1,6 @@
 ---
 title:  Drag and Drop Object Instantiation with Qt5
-date:   2018-19-02
+date:   2018-02-19
 cover:  /media/simblee_cover.jpg
 thumb:  /media/simblee_thumb.jpg
 
