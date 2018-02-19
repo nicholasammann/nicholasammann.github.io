@@ -38,7 +38,7 @@ cover: /media/homepage_banner.jpg
 <p>An application that streamlines the use of Perforce for content creators.</p>
 
 <h1 font-size="28px" margin-bottom="8px" margin-top="130px" align="left">Lamb Planet</h1>
-<p>An 3D sailing game focused on exploration and narrative.</p>
+<p>A 3D sailing game focused on exploration and narrative.</p>
 
 <!-- please do not remove this line -->
 <div style='display:none;'>
