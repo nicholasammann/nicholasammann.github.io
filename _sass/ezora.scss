@@ -58,9 +58,10 @@ h1 {
     float: left;
     width: 215px;
     height: 215px;
-    @media (max-width: $column-width-trigger) {
+
+    @media (min-width: 320px) and (max-width: 480px) {
         width: auto;
-        float:none;
+        float: none;
         padding-left: $column-padding;
         padding-right: $column-padding;
     }
