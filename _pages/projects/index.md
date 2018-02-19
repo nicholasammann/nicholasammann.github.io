@@ -2,6 +2,7 @@
 layout: default
 title: Projects
 tagline: 
+navbarLink: Projects
 permalink: "/projects/"
 cover: /media/homepage_banner.jpg
 top-text: YTEditor - Built with Qt5
