@@ -1,76 +1,21 @@
-﻿<!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+---
+layout: default
+title: Home
+---
 
-        <link rel="stylesheet" href="/assets/css/style.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-        <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
-        <!--[if lt IE 9]>
-          <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        <![endif]-->
-        <!--[if lt IE 8]>
-        <link rel="stylesheet" href="{{ '/assets/css/ie.css' | relative_url }}">
-        <![endif]-->
-        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    </head>
-    <body>
-        <div class="banner">
-            
-        </div>
-
-        <section>
-            <div id="title">
-                <h1>nicholas ammann</h1>
-                <p>tools programmer</p>
-                <hr>
-            </div>
-        </section>
-
-        <div>
-            <center>
-                Please navigate to the Projects page to view screenshots of my most recent project.
-            </center>
-        </div>
-
-        <script>
-            /* Set the width of the side navigation to 200px and the left margin of the page content to 200px */
-            function openNav() {
-                document.getElementById("sidebarMenu").style.width = "200px";
-                document.getElementById("main").style.marginLeft = "200px";
-            }
-
-            /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
-            function closeNav() {
-                document.getElementById("sidebarMenu").style.width = "0";
-                document.getElementById("main").style.marginLeft = "0";
-            }
-        </script>
-
-        <button class="navbutton" onclick="openNav()">Menu</button>
-
-        <!-- sidebar -->
-        <div id="sidebarMenu" class="sidenav">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <a href="index.html">Home</a>
-            <a href="projects.html">Projects</a>
-            <a href="resume.html">Resume</a>
-            <a href="contact.html">Contact</a>
-        </div>
-
-        <div id="main">
-
-        </div>
-
-        <script type="text/javascript">
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', '{{ site.google_analytics }}', 'auto');
-            ga('send', 'pageview');
-        </script>
-
-    </body>
-</html>
+{% assign tmp = "/" | append: site.baseurl %}
+{% if page.url == tmp or page.url == "/" %}
+    <article>
+        <h1 class="top-text">About Ezora</h1>
+        <p>I designed this theme from the ground up for <a href=http://www.ezrasavard.com>my own website</a> and had some inspiration from the <a href=http://the-development.github.io/flex/>Flex Jekyll Theme</a> (fonts!) and <a href=http://lisesavard.com/>Lise Savard's Blog</a>.</p>
+        <p>Ezora uses a fairly minimal set of layouts and sass, and will automatically conform to a sensible layout based on the YAML provided, unless a layout is specified. Width/height values are all defined in the top of main.scss as variables, so you don't have to hunt too far through the SCSS to tweak things.</p>
+        <p>The default layout handles the home page and any other pages while the post layout extends the default slightly to include a date-stamp at the top of the page.</p>
+        <p>Notable _includes are the shiny and responsive topbar, included in the default layout, and the postlist, which is a paginated pile of posts you can include in any page, like the default home page does. You can specify your navigation menu links in topbar.</p>
+    </article>
+    <div class="divider"></div>
+    <h1 class="top-text">Most Recent Posts</h1>
+    {% include postlist.html %}
+{% else %}
+    <h1 class="top-text">More Posts</h1>
+    {% include postlist.html %}
+{% endif %}
