@@ -1,4 +1,5 @@
 title: Nick Ammann
+navbarLink: About
 email: ammannnicholas@gmail.com
 greeting: Nick Ammann
 description: > # 
@@ -6,8 +7,8 @@ description: > #
     
 github:  nicholasammann
 linkedin: nicholasammann
-favicon: favicon.png
 
+favicon: favicon.png
 # Build settings
 paginate: 3
 baseurl: "" # the subpath of your site, e.g. /blog/
