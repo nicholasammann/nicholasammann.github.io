@@ -9,9 +9,9 @@ cover: /media/homepage_banner.jpg
 <h1 class="top-text">The YTEditor</h1>
 
 <center>
-    <img class="imageSlide" src="/assets/images/yteditor_scene_blue.png">
-    <img class="imageSlide" src="/assets/images/yteditor_scene_mixed.png">
-    <img class="imageSlide" src="/assets/images/yteditor_particles.png">
+    <img class="imageSlide" src="/media/yteditor_scene_blue.png">
+    <img class="imageSlide" src="/media/yteditor_scene_mixed.png">
+    <img class="imageSlide" src="/media/yteditor_particles.png">
 </center>
 
 <script>
