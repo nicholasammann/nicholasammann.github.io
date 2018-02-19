@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Projects
-tagline: 
+tagline: "None"
 permalink: "/projects/"
 cover: /media/homepage_banner.jpg
 top-text: YTEditor - Built with Qt5

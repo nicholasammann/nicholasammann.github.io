@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About Me
-tagline: 
+tagline: "None"
 permalink: "/about/"
 cover: /media/homepage_banner.jpg
 top-text: 

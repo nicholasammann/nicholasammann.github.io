@@ -12,7 +12,9 @@
                 <h1 class="title">{{ site.greeting }}</h1><br>
             {% endif %}
             {% if page.tagline %}
-                <h1 class="tagline">{{ page.tagline }}</h1>
+                {% if page.tagline != "None" %}
+                    <h1 class="tagline">{{ page.tagline }}</h1>
+                {% endif %}
             {% elsif page.date %}
                 <h1 class="tagline">{{ page.date | date_to_string }}</h1>
             {% else %}
