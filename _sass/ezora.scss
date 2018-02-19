@@ -58,10 +58,10 @@ h1 {
     width: 215px;
     height: 215px;
 
-    @media (min-width: 320px) and (max-width: 480px) {
-        margin: 20px;
-        width: auto - 20px;
-        height: auto - 20px;
+    @media (min-width: 100px) and (max-width: 600px) {
+        margin: 0px;
+        width: auto;
+        height: auto;
         float: none;
     }
 }
