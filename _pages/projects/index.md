@@ -31,6 +31,8 @@ cover: /media/homepage_banner.jpg
     }
 </script>
 
+<p>Built with <a href="https://www.qt.io/">Qt</a>, the YTEditor is a level editor built for a 3D component-based game engine.</p>
+
 
 <!-- please do not remove this line -->
 <div style='display:none;'>
