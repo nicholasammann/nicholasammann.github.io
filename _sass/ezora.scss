@@ -60,8 +60,8 @@ h1 {
 
     @media (min-width: 320px) and (max-width: 480px) {
         margin: 20px;
-        width: auto;
-        height: auto;
+        width: auto - 20px;
+        height: auto - 20px;
         float: none;
     }
 }
