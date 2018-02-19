@@ -4,7 +4,6 @@ title: About Me
 tagline: "None"
 permalink: "/about/"
 cover: /media/homepage_banner.jpg
-top-text: 
 ---
 
 I'm currently studying computer science at [DigiPen Institute of Technology](https://www.digipen.edu/).
