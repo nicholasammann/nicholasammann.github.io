@@ -1,8 +1,8 @@
 title: Nick Ammann
 email: ammannnicholas@gmail.com
 greeting: Nick Ammann
-description: > # this means to ignore newlines until another tag
-    Ezora is a responsive Jekyll theme with a clean single column layout, nifty text overlays for images and a mobile friendly navigation bar.
+description: > # Tools Programmer
+    
 github:  nicholasammann
 linkedin: nicholasammann
 favicon: favicon.png
@@ -36,7 +36,7 @@ defaults:
             type: "posts"
         values:
             author: "Ezra Savard"
-            cover: "/media/header.jpg"
+            cover: "/media/homepage_banner.jpg"
             layout: "post"
     -
         scope:
@@ -44,5 +44,5 @@ defaults:
             type: "pages"
         values:
             author: "Ezra Savard"
-            cover: "/media/header.jpg"
+            cover: "/media/homepage_banner.jpg"
             layout: "default"
