@@ -34,7 +34,7 @@ cover: /media/homepage_banner.jpg
 <p>Built with <a href="https://www.qt.io/">Qt</a>, the YTEditor is a level editor built for a 3D component-based game engine.</p>
 
 
-<h1 font-size="28px" margin-bottom="18px" margin-top="30px" align="left">Perforce GUI</h1>
+<h1 font-size="28px" margin-bottom="18px" margin-top="70px" align="left">Perforce GUI</h1>
 <p>An application that streamlines the use of Perforce for content creators.</p>
 
 <!-- please do not remove this line -->
