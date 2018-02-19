@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Sample
-tagline: It must be bunnies
-permalink: "/sample/"
-cover: /media/spike.jpg
-top-text: This Text is all Title-y
+title: Projects
+tagline: 
+permalink: "/projects/"
+cover: /media/homepage_banner.jpg
+top-text: YTEditor - Built with Qt5
 ---
 
 I saw their production of 'Giselle' in 1890. I wept like a baby, and I was evil! Boy, when they were handing out school spirit, you didn't even stand in line, did you?

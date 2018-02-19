@@ -36,7 +36,7 @@ defaults:
             path: ""
             type: "posts"
         values:
-            author: "Ezra Savard"
+            author: "Nicholas Ammann"
             cover: "/media/homepage_banner.jpg"
             layout: "post"
     -
@@ -44,6 +44,6 @@ defaults:
             path: ""
             type: "pages"
         values:
-            author: "Ezra Savard"
+            author: "Nicholas Ammann"
             cover: "/media/homepage_banner.jpg"
             layout: "default"
