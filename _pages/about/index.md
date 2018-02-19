@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Nick Ammann
-tagline: Tools Programmer
+title: About Me
+tagline: 
 permalink: "/about/"
 cover: /media/homepage_banner.jpg
 top-text: 
