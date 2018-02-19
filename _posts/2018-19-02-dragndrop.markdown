@@ -12,12 +12,8 @@ This is an example sentence for drag and drop object instantiation blog post.  I
 
 Here's a a lot more writing about how I did drag and drop. Here's a a lot more writing about how I did drag and drop. Here's a a lot more writing about how I did drag and drop. Here's a a lot more writing about how I did drag and drop.
 
-## Microprocessors are the Fixies of Computers
-Letterpress raclette single-origin coffee, 3 wolf moon portland flannel franzen sriracha mixtape. Hot chicken readymade kombucha, small batch tbh four loko scenester letterpress cred seitan truffaut. Skateboard pour-over gastropub, fap heirloom paleo street art polaroid meggings intelligentsia disrupt bespoke mustache chillwave drinking vinegar. Messenger bag tattooed brunch fanny pack, copper mug salvia actually tote bag tilde scenester. Twee ugh echo park subway tile tbh wolf. Plaid fixie iceland copper mug flannel. Fixie butcher keytar hammock, sustainable keffiyeh hexagon.
 
-Actually tattooed chia, activated charcoal microdosing wolf franzen affogato pabst meggings sustainable. Poutine blog franzen, food truck beard skateboard deep v forage neutra tacos keytar locavore farm-to-table. Banh mi raw denim kitsch lo-fi lumbersexual. Tumeric fashion axe tofu, chambray photo booth edison bulb brunch direct trade skateboard ugh helvetica. Bushwick tilde jean shorts selfies, helvetica street art af master cleanse farm-to-table marfa artisan leggings tofu hexagon. Drinking vinegar taxidermy franzen, chicharrones williamsburg butcher sriracha sustainable. Messenger bag green juice lo-fi, fixie organic brunch semiotics.
-
-### Overwriting Drag and Drop Events on the Receiving Widget
+## Overwriting Drag and Drop Events on the Receiving Widget
 
 {% highlight C++ %}
 void ComponentTree::dropEvent(QDropEvent *aEvent)
