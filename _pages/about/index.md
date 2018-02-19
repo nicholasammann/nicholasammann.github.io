@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Nick Ammann
-tagline: Tools Programmer
+title: About
+tagline: 
 permalink: "/about/"
 cover: /media/homepage_banner.jpg
-top-text: About Me
+top-text: 
 ---
 
 I'm currently studying computer science at [DigiPen Institute of Technology](https://www.digipen.edu/).
