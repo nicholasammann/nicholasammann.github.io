@@ -54,9 +54,12 @@ h1 {
 }
 
 .profile-pic {
-    margin: 8px 30px 3px 0px;
-    width: 215px;
-    height: 215px;
+
+    @media (min-width: 601px) and (max-width: 10000px) {
+        margin: 8px 30px 3px 0px;
+        width: 215px;
+        height: 215px;
+    }
 
     @media (min-width: 100px) and (max-width: 600px) {
         margin: 0px;
