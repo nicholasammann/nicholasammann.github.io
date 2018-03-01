@@ -6,7 +6,7 @@ permalink: "/projects/"
 cover: /media/homepage_banner.jpg
 ---
 
-<h1 href="https://nickammann.com/projects/yteditor.html" font-size="28px" margin-bottom="8px" margin-top="30px" align="left">The YTEditor</h1>
+<h1 font-size="28px" margin-bottom="8px" margin-top="30px" align="left"><a href="https://nickammann.com/projects/yteditor.html">The YTEditor</a></h1>
 
 <center>
     <img class="imageSlide" src="/media/yteditor_scene_blue.png">
