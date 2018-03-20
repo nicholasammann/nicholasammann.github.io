@@ -7,9 +7,7 @@ cover: /media/homepage_banner.jpg
 ---
 
 <h1 font-size="28px" margin-bottom="8px" margin-top="30px" align="left">
-    <a>
-        The YTEditor
-    </a>
+    The YTEditor
 </h1>
 
 <iframe width="600" height="400"
