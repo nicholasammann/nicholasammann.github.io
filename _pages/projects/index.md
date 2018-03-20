@@ -12,6 +12,10 @@ cover: /media/homepage_banner.jpg
     </a>
 </h1>
 
+<iframe width="420" height="315"
+  src="https://youtu.be/pLOTF1rBFBo">
+</iframe>
+
 <center>
     <img class="imageSlide" src="/media/yteditor_scene_blue.png">
     <img class="imageSlide" src="/media/yteditor_scene_mixed.png">
