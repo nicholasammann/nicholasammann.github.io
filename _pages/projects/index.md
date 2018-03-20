@@ -13,7 +13,7 @@ cover: /media/homepage_banner.jpg
 </h1>
 
 <iframe width="600">
-  src="https://www.youtube.com/watch?v=pLOTF1rBFBo&">
+  src="https://www.youtube.com/embed/pLOTF1rBFBo">
 </iframe>
 
 <center>
