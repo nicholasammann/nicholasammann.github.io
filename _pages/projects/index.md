@@ -12,7 +12,7 @@ cover: /media/homepage_banner.jpg
     </a>
 </h1>
 
-<iframe width="auto" height="auto"
+<iframe width="600" height="600"
   src="https://www.youtube.com/embed/iZywiUdcLMs">
 </iframe>
 
