@@ -7,7 +7,7 @@ cover: /media/homepage_banner.jpg
 ---
 
 <h1 font-size="28px" margin-bottom="8px" margin-top="30px" align="left">
-    <a href="http://www.nickammann.com/_pages/projects/yteditor.html">
+    <a>
         The YTEditor
     </a>
 </h1>
