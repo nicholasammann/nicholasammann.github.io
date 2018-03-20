@@ -12,8 +12,8 @@ cover: /media/homepage_banner.jpg
     </a>
 </h1>
 
-<iframe width="420" height="315"
-  src="https://www.youtube.com/embed/pLOTF1rBFBo">
+<iframe height="420"
+  src="https://www.youtube.com/embed/iZywiUdcLMs">
 </iframe>
 
 <center>
