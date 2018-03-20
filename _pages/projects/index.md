@@ -10,34 +10,11 @@ cover: /media/homepage_banner.jpg
     The YTEditor
 </h1>
 
+<p>Built with <a href="https://www.qt.io/">Qt</a>, the YTEditor is a level editor built for a 3D component-based game engine.</p>
+
 <iframe width="600" height="400"
   src="https://www.youtube.com/embed/iZywiUdcLMs">
 </iframe>
-
-<center>
-    <img class="imageSlide" src="/media/yteditor_scene_blue.png">
-    <img class="imageSlide" src="/media/yteditor_scene_mixed.png">
-    <img class="imageSlide" src="/media/yteditor_particles.png">
-</center>
-
-<script>
-    var slideIndex = 1;
-    carousel();
-
-    function carousel() {
-        var i;
-        var x = document.getElementsByClassName("imageSlide");
-        for (i = 0; i < x.length; i++) {
-            x[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > x.length) { slideIndex = 1 }
-        x[slideIndex - 1].style.display = "block";
-        setTimeout(carousel, 2000); // Change image every 2 seconds
-    }
-</script>
-
-<p>Built with <a href="https://www.qt.io/">Qt</a>, the YTEditor is a level editor built for a 3D component-based game engine.</p>
 
 
 <h1 font-size="28px" margin-bottom="8px" margin-top="130px" align="left">Perforce GUI</h1>
