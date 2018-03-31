@@ -16,7 +16,6 @@ cover: /media/homepage_banner.jpg
   src="https://www.youtube.com/embed/iZywiUdcLMs">
 </iframe>
 
-
 <h1 font-size="28px" margin-bottom="8px" margin-top="130px" align="left">Perforce GUI</h1>
 <p>An application that streamlines the use of Perforce for content creators.</p>
 
