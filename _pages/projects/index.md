@@ -16,8 +16,12 @@ cover: /media/homepage_banner.jpg
   src="https://www.youtube.com/embed/iZywiUdcLMs">
 </iframe>
 
+<hr/>
+
 <h1 font-size="28px" margin-bottom="8px" margin-top="130px" align="left">Perforce GUI</h1>
 <p>An application that streamlines the use of Perforce for content creators.</p>
+
+<hr/>
 
 <h1 font-size="28px" margin-bottom="8px" margin-top="130px" align="left">Lamb Planet</h1>
 <p>A 3D sailing game focused on exploration and narrative.</p>
