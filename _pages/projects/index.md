@@ -21,10 +21,10 @@ cover: /media/homepage_banner.jpg
 
 <h1 font-size="28px" margin-bottom="8px" margin-top="130px" align="left">Lamb Planet</h1>
 <p>A 3D sailing game focused on exploration and narrative.</p>
-<img width="500px" src=/media/lambplanet/gameplay.png/>
-<img width="500px" src=/media/lambplanet/wideshot.png/>
-<img width="500px" src=/media/lambplanet/boat.png/>
-<img width="500px" src=/media/lambplanet/dialogue.png/>
+<img width="500px" src="/media/lambplanet/gameplay.png"/>
+<img width="500px" src="/media/lambplanet/wideshot.png"/>
+<img width="500px" src="/media/lambplanet/boat.png"/>
+<img width="500px" src="/media/lambplanet/dialogue.png"/>
 
 <!-- please do not remove this line -->
 <div style='display:none;'>
