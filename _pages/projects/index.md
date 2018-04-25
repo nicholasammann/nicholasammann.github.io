@@ -25,10 +25,10 @@ cover: /media/homepage_banner.jpg
 
 <h1 font-size="28px" margin-bottom="8px" margin-top="130px" align="left">Lamb Planet</h1>
 <p>A 3D sailing game focused on exploration and narrative.</p>
-<img src="/media/lambplanet/gameplay.png"/>
-<img src="/media/lambplanet/wideshot.png"/>
-<img src="/media/lambplanet/boat.png"/>
-<img src="/media/lambplanet/dialogue.png"/>
+
+<iframe width="600" height="400"
+  src="https://www.youtube.com/embed/iTt_W-mqirY">
+</iframe>
 
 <!-- please do not remove this line -->
 <div style='display:none;'>
