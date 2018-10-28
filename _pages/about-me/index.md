@@ -5,8 +5,6 @@ permalink: "/about-me/"
 cover: /media/homepage_banner.jpg
 ---
 
-<h1 class="top-text">About Me</h1>
-
 <p>
     <img class="profile-pic" src="/media/profile_pic.jpg">
 </p>
