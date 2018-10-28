@@ -9,7 +9,7 @@ cover: /media/homepage_banner.jpg
 
 <p>
     <img class="profile-pic" src="/media/profile_pic.jpg">
-    I'm a software engineer currently pursuing a Bachelor of Science in Computer Science and Real-Time Interactive Simulation at <a href=https://www.digipen.edu>DigiPen Institute of Technology</a>.
+    I am a software engineer currently pursuing a Bachelor of Science in Computer Science and Real-Time Interactive Simulation at <a href=https://www.digipen.edu>DigiPen Institute of Technology</a>.
     I've worked on academic project teams of 8-12 people creating video games in custom game engines written in C++.
 </p>
 
