@@ -11,9 +11,10 @@ cover: /media/homepage_banner.jpg
 
 <p>
     <img class="profile-pic" src="/media/profile_pic.jpg">
-    I am a software engineer currently pursuing a Bachelor of Science in Computer Science and Real-Time Interactive Simulation at [DigiPen Institute of Technology](https://www.digipen.edu).
-    I've worked on academic project teams of 8-12 people creating video games in custom game engines written in C++.
 </p>
+
+I am a software engineer currently pursuing a Bachelor of Science in Computer Science and Real-Time Interactive Simulation at [DigiPen Institute of Technology](https://www.digipen.edu).
+I've worked on academic project teams of 8-12 people creating video games in custom game engines written in C++.
 
 <p>
     Most of my project experience is in tools programming, although I have some knowledge of core engine and graphics programming.
