@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Projects
-tagline: "None"
 permalink: "/projects/"
 cover: /media/homepage_banner.jpg
 ---
@@ -10,7 +9,7 @@ cover: /media/homepage_banner.jpg
     The YTEditor
 </h1>
 
-<p>Built with <a href="https://www.qt.io/">Qt</a>, the YTEditor is a level editor built for a 3D component-based game engine.</p>
+<p>Built with <a href="https://www.qt.io/">Qt</a>, the YTEditor is a level editor for a 3D component-based game engine.</p>
 
 <iframe width="600" height="400"
   src="https://www.youtube.com/embed/iZywiUdcLMs">
