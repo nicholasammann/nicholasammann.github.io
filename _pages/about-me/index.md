@@ -2,6 +2,8 @@
 layout: default
 title: About Me
 tagline: None
+permalink: "/about-me/"
+cover: /media/homepage_banner.jpg
 ---
 
 <h1 class="top-text">About Me</h1>
