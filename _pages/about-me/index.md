@@ -1,7 +1,6 @@
 ---
 layout: default
-title: About Me
-tagline: None
+title: Projects
 permalink: "/about-me/"
 cover: /media/homepage_banner.jpg
 ---
