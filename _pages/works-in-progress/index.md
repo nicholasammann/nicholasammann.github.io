@@ -13,7 +13,9 @@ cover: /media/homepage_banner.jpg
 
 A first person, narrative focused mystery/horror game made in UE4.
 
-Videos available soon.
+<iframe width="600" height="400"
+  src="https://www.youtube.com/embed/LPV8HeLMVfY">
+</iframe>
 
 
 ## Data Visualization
