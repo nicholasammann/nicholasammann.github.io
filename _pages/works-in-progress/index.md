@@ -17,6 +17,7 @@ A first person, narrative focused mystery/horror game made in UE4.
   src="https://www.youtube.com/embed/LPV8HeLMVfY">
 </iframe>
 
+<hr/>
 
 ## Data Visualization
 
