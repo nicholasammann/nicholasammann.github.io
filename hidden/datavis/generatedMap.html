@@ -157,20 +157,13 @@
   </head>
   <body>
     <div id="regions_div" style="width: 900px; height: 500px;"></div>
-    
-    <div id="like_button_container"></div>
-    <!-- Load React. -->
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-
-    <!-- Load our React component. -->
-    <script src="like_button.js"></script>
 
     <input type="file" id="input"/>
+    <input type="checkbox" name="useFile1" value="Apply Filter">
 
     <script>
       var selectedFile = document.getElementById('input').files[0];
+      var checked = document.getElementsByName('useFile1').checked;
     </script>
   </body>
 </html>
