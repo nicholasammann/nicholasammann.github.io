@@ -158,12 +158,20 @@
   <body>
     <div id="regions_div" style="width: 900px; height: 500px;"></div>
 
-    <input type="file" id="input"/>
-    <input type="checkbox" name="useFile1" value="Apply Filter">
+    <input type="file" id="fileA"/>
+    <input type="checkbox" name="useFileA" value="Apply Filter">
+
+    <br/>
+
+    <input type="file" id="fileB"/>
+    <input type="checkbox" name="useFileB" value="Apply Filter">
 
     <script>
-      var selectedFile = document.getElementById('input').files[0];
-      var checked = document.getElementsByName('useFile1').checked;
+      var fileA = document.getElementById('fileA').files[0];
+      var checkedA = document.getElementsByName('useFileA').checked;
+
+      var fileB = document.getElementById('fileB').files[0];
+      var checkedB = document.getElementsByName('useFileB').checked;
     </script>
   </body>
 </html>
