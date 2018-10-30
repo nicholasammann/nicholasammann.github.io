@@ -164,6 +164,12 @@
       var checkedA = document.getElementsByName('useFileA').checked;
       document.getElementById('fileDebug').nodeValue = fileA;
     }
+
+    function fileB_checkboxChange() {
+      var fileB = document.getElementById('fileB').files[0];
+      var checkedB = document.getElementsByName('useFileB').checked;
+      document.getElementById('fileDebug').nodeValue = fileB;
+    }
     </script>
 
     <input type="file" id="fileA"/>
@@ -173,14 +179,6 @@
     <br/>
 
     <input type="file" id="fileB"/>
-    <input type="checkbox" name="useFileB" value="Apply Filter">
-
-    <script>
-      var fileA = document.getElementById('fileA').files[0];
-      var checkedA = document.getElementsByName('useFileA').checked;
-
-      var fileB = document.getElementById('fileB').files[0];
-      var checkedB = document.getElementsByName('useFileB').checked;
-    </script>
+    <input type="checkbox" name="useFileB" value="Apply Filter" onclick="fileB_checkboxChange()">
   </body>
 </html>
