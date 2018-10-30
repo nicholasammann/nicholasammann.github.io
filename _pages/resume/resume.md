@@ -5,4 +5,4 @@ permalink: "/resume/"
 cover: /media/homepage_banner.jpg
 ---
 
-<embed src="resume/NicholasAmmann_Resume.pdf" type="application/pdf" width="100%" height="600px" />
+<iframe src="http://docs.google.com/gview?url=http://nickammann.com/resume/NicholasAmmann_Resume.pdf&embedded=true" style="width:600px; height:500px;" frameborder="0"></iframe>
