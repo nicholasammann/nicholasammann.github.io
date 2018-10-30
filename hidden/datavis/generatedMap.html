@@ -162,23 +162,23 @@
         function fileA_checkboxChange() {
           var fileA = document.getElementById('fileA').files[0];
           var checkedA = document.getElementsByName('useFileA').checked;
-          document.getElementById('fileDebug').textContent = fileA;
+          document.getElementById('fileADebug').textContent = fileA.textContent;
         }
     
         function fileB_checkboxChange() {
           var fileB = document.getElementById('fileB').files[0];
           var checkedB = document.getElementsByName('useFileB').checked;
-          document.getElementById('fileDebug').textContent = fileB;
+          document.getElementById('fileBDebug').textContent = fileB.data;
         }
     </script>
 
     <input type="file" id="fileA"/>
     <input type="checkbox" name="useFileA" value="Apply Filter" onchange="fileA_checkboxChange()"/>
-    <label id="fileDebug">File Debug</label>
-
+    <label id="fileADebug">File A Debug</label>
     <br/>
-
     <input type="file" id="fileB"/>
     <input type="checkbox" name="useFileB" value="Apply Filter" onclick="fileB_checkboxChange()">
+    <label id="fileBDebug">File B Debug</label>
+
   </body>
 </html>
