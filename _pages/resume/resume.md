@@ -10,3 +10,6 @@ cover: /media/homepage_banner.jpg
     height="200"
     src="https://www.nickammann.com/NicholasAmmann_Resume.pdf">
 </iframe>
+
+<object data="https://www.nickammann.com/NicholasAmmann_Resume.pdf" type="application/pdf" width="700px" height="700px">
+</object>
