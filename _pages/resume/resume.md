@@ -11,4 +11,4 @@ cover: /media/homepage_banner.jpg
     src="https://www.nickammann.com/NicholasAmmann_Resume.pdf">
 </iframe>
 
-<embed src="/NicholasAmmann_Resume.pdf" type="application/pdf" width="100%" height="600px" />
+<embed src="resume/NicholasAmmann_Resume.pdf" type="application/pdf" width="100%" height="600px" />
