@@ -158,8 +158,17 @@
   <body>
     <div id="regions_div" style="width: 900px; height: 500px;"></div>
 
+    <script>
+    function fileA_checkboxChange() {
+      var fileA = document.getElementById('fileA').files[0];
+      var checkedA = document.getElementsByName('useFileA').checked;
+      document.getElementById('fileDebug').nodeValue = fileA;
+    }
+    </script>
+
     <input type="file" id="fileA"/>
-    <input type="checkbox" name="useFileA" value="Apply Filter">
+    <input type="checkbox" name="useFileA" value="Apply Filter" onchange="fileA_checkboxChange()"/>
+    <label id="fileDebug"></label>
 
     <br/>
 
