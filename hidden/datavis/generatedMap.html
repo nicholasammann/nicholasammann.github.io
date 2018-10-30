@@ -180,5 +180,16 @@
     <input type="checkbox" name="useFileB" value="Apply Filter" onclick="fileB_checkboxChange()">
     <label id="fileBDebug">File B Debug</label>
 
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+    <script>
+      $.ajax({
+        type: "POST",
+        url: "http://nickammann.com/hidden/datavis/mapDataExample.py",
+        data: { param: text }
+      }).done(function(response){
+        
+      });
+    </script>
   </body>
 </html>
