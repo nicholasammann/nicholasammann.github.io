@@ -162,13 +162,13 @@
         function fileA_checkboxChange() {
           var fileA = document.getElementById('fileA').files[0];
           var checkedA = document.getElementsByName('useFileA').checked;
-          document.getElementById('fileADebug').textContent = fileA.value;
+          document.getElementById('fileADebug').textContent = fileA.name;
         }
     
         function fileB_checkboxChange() {
           var fileB = document.getElementById('fileB').files[0];
           var checkedB = document.getElementsByName('useFileB').checked;
-          document.getElementById('fileBDebug').textContent = fileB.value;
+          document.getElementById('fileBDebug').textContent = fileB.name;
         }
     </script>
 
