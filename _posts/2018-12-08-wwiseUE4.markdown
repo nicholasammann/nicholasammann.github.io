@@ -13,7 +13,11 @@ This guide assumes you have a Wwise project available for use, but not much expe
 
 ## Generating Soundbanks
 
+After opening up the Wwise project, navigate to the Designer layout scheme via Layouts > Designer on the menu bar. You should see the Project Explorer window (shown below) - if not, try finding it in View > Project Explorer.
+
 ![sb1](../../../media/wwise-guide/wwise-soundbank-1.png)
+
+
 
 ## Playing Sounds
 
