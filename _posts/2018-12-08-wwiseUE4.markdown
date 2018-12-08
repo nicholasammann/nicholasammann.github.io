@@ -1,11 +1,11 @@
 ---
 title:  Integrating Wwise with Unreal 4
-date:   2018-08-12
-cover:  /media/powered-by-wwise-logo.png
+date:   2018-12-08
+cover:  /media/wwise-logo.png
 tagline: Communicating with Wwise via UE4 Blueprints
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+An introduction to integrating a Wwise project with an Unreal 4 project, covering: different Blueprint nodes (and why we choose one over the other), how to set Wwise parameters and states.
 
 <!--more-->
 
