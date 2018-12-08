@@ -1,27 +1,23 @@
 ---
 title:  Integrating Wwise with Unreal 4
 date:   2018-12-08
-cover:  /media/wwise-logo.png
+cover:  /media/wwise-guide/wwise-logo.png
 tagline: Communicating with Wwise via UE4 Blueprints
 ---
 
-An introduction to integrating a Wwise project with an Unreal 4 project, covering: different Blueprint nodes (and why we choose one over the other), how to set Wwise parameters and states.
+An introduction to integrating a Wwise project with an Unreal 4 project, covering: how to generate soundbanks in Wwise and Unreal, our options in regards to playing sounds in-engine (and why we choose one option over the other), how to set Wwise parameters and states, and how to fix some common bugs.
 
-<!--more-->
+The game being used in this example is an academic project, Takowana County, for which I did audio implementation. The corresponding Wwise project created by the audio team is the subject of any Wwise-related screenshots.
 
+This guide assumes you have a Wwise project available for use, but not much experience with Wwise or Unreal. Wwise 2018 and Unreal 4.20 were used for this project.
 
-## Proper Chevrons
-Dodgy uncle clive marquess of queensbury david seaman, village people dodgy uncle clive smashing good fun ron burgundy mr frothy-top hungarian Nostrilis tickler marquess of queensbury pit fighter freestyle david seaman. Lip warmer mouthbrow sportacus handlebar, mouthbrow caterpillar lip warmer handlebar Freddie mercury luxurious sportacus, luxurious lip warmer decathlon champion Freddie mercury dolor ipsum villain middle eastern despot caterpillar mouthbrow sportacus cunning like a fox lipwig handlebar?
+## Generating Soundbanks
 
+![sb1](../../../media/wwise-guide/wwise-soundbank-1.png)
 
-## A Little Handlebar Eh?
-Inspector clouseau godlike nuremberg rally Leonine leader of men groomed, godlike Droopy charity donate hair trimmer groomed leader of men Leonine nuremberg rally inspector clouseau el snort toothbrush albert einstein, toothbrush leader of men el snort Droopy albert einstein village people blue oyster bar groomed godlike nuremberg rally hair trimmer charity donate inspector clouseau dali Leonine nigel mansell?
+## Playing Sounds
 
+## Setting Parameters / RTPC's
 
-## Sharp!
-Testosterone trophy john aldridge ned flanders socially mobile?
+## Setting Wwise States
 
-### Did he bleach that?
-Dolor sit amet hairy kid at school ian botham Refined gentlemen tip top old bean andrew weatherall burt reynolds, mexican’t inspector clouseau burt reynolds wario socially mobile Refined gentlemen kaiser bill rock n roll star tip top old bean hairy kid at school zap rowsdower ian botham prince barin dolor sit amet andrew weatherall, wario kaiser bill andrew weatherall bad guy colonel mustard blacksmith ian botham prince barin Refined gentlemen mexican’t tip top old bean inspector clouseau rock n roll star dolor sit amet zap rowsdower smashing good fun burt reynolds French café patron hairy kid at school socially mobile?
-
-_Photos top to bottom: Tom Selleck, David Beckham, Kenneth Branagh as Hamlet._
