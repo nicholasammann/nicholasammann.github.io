@@ -9,16 +9,6 @@ cover: /media/homepage_banner.jpg
 
 <hr/>
 
-## Takowana County
-
-A first person, narrative focused mystery/horror game made in UE4.
-
-<iframe width="600" height="400"
-  src="https://www.youtube.com/embed/LPV8HeLMVfY">
-</iframe>
-
-<hr/>
-
 ## Data Visualization
 
 I've started learning about the basics of data visualization and am experimenting with data sets from [informationisbeautiful.net](https://informationisbeautiful.net/).
