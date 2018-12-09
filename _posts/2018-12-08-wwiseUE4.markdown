@@ -105,7 +105,7 @@ In Wwise, RTPC's are associated with an event, audio bus, actor-mixer, or other 
 
 This particular event was for adjusting a low-pass filter based on how directly the player in our game was looking at a clue. A mechanic in the game is to take pictures of clues with a camera and we needed to tell the player when they were capturing the clue well enough.
 
-But let's say we didn't want the sound to respond immediately, in case the player decides the violently jerk the camera around. We can specify a time (in milliseconds) to interpolate the change over. In this case, I chose 200ms.
+But let's say we didn't want the sound to respond immediately, in case the player decides to violently jerk the camera around. We can specify a time (in milliseconds) to interpolate the change over. In this case, I chose 200ms.
 ![rtpc-3](../../../media/wwise-guide/rtpc-3.png)
 
 Notice that I didn't specify an Actor to set the RTPC on - this is because Wwise allows us to set RTPC's globally, not just per object. It is useful if you don't know which actor a sound is being played from or if you want to affect multiple sounds being played from different actors. Conversely, setting an RTPC per object is handy if you want two of the same sound events to sound differently.
