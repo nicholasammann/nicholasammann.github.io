@@ -41,6 +41,11 @@ To be safe, we'll check out the entire Wwise project folder and try generating t
 
 ## Generating Soundbanks in Unreal
 
+Before getting into Unreal, we want to make sure it understands how to generate it's representation of the soundbanks. To do this, Wwise needs to be open to communication, so we need to make sure the option "Enable Wwise Authoring API" is enabled in our User Preferences in Wwise. More information on the Wwise Authoring API can be found [here.](https://www.audiokinetic.com/library/2017.1.9_6501/?source=SDK&id=waapi.html)
+
+![ue-sb1](../../../media/wwise-guide/unreal-soundbank-1.png)
+
+
 ## Playing Sounds
 
 ## Setting Parameters / RTPC's
