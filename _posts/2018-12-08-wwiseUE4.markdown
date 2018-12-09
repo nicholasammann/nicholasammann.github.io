@@ -9,7 +9,7 @@ tagline: Communicating with Wwise via UE4 Blueprints
 
 With little Wwise and virtually no Unreal experience, I found myself in charge of audio implementation for a project that was a year into development. This is a collection of the information I wish I could have found online when I started.
 
-On the topic of integrating a Wwise project with an Unreal 4 project, I've tried to cover: how to generate soundbanks in Wwise and Unreal, the options in regards to playing sounds in-engine (and why we choose one option over the other), how to set Wwise parameters and states, and how to fix some common bugs.
+On the topic of integrating a Wwise project with an Unreal 4 project, I've tried to cover: how to generate soundbanks in Wwise and Unreal, the options in regards to playing sounds in-engine (and why we choose one option over the other), and how to set Wwise parameters and states.
 
 The game being used in this example is an academic project, Takowana County, for which I did audio implementation. The corresponding Wwise project created by the audio team is the subject of any Wwise-related screenshots.
 
@@ -123,6 +123,3 @@ In our project, we used them to adjust certain music events based on game progre
 
 So in our game, we changed the state like this:
 ![state-5](../../../media/wwise-guide/state-5.png)
-
-
-
