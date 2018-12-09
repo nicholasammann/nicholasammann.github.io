@@ -9,15 +9,36 @@ An introduction to integrating a Wwise project with an Unreal 4 project, coverin
 
 The game being used in this example is an academic project, Takowana County, for which I did audio implementation. The corresponding Wwise project created by the audio team is the subject of any Wwise-related screenshots.
 
-This guide assumes you have a Wwise project available for use, but not much experience with Wwise or Unreal. Wwise 2018 and Unreal 4.20 were used for this project.
+This guide assumes you have a Wwise project available for use, but not much experience with Wwise or Unreal. Some of the described bugs are caused read/write file access issues due to Perforce, which you can disregard if you aren't using version control (but please, use version control software.) 
 
-## Generating Soundbanks
+Wwise 2018 and Unreal 4.20 were used for this project.
+
+## Generating Soundbanks in Wwise
 
 After opening up the Wwise project, navigate to the Designer layout scheme via Layouts > Designer on the menu bar. You should see the Project Explorer window (shown below) - if not, try finding it in View > Project Explorer.
 
 ![sb1](../../../media/wwise-guide/wwise-soundbank-1.png)
 
+To generate soundbanks, right click on your soundbank(s) in the list, and select "Generate Soundbank(s) for current playform".
 
+![sb2](../../../media/wwise-guide/wwise-soundbank-2.png)
+
+While the soundbanks are generating, you'll see the following window. Looks like we've got some errors!
+
+![sb3](../../../media/wwise-guide/wwise-soundbank-3.png)
+
+Let's investigate further.
+
+![sb4](../../../media/wwise-guide/wwise-soundbank-4.png)
+
+The error (being unable to open the file) is caused in this case by being unable to open the files with write permission because we haven't checked them out in Perforce. An indication of this is that all the files in question are in the hidden .cache folder of our Wwise project.
+
+To be safe, we'll check out the entire Wwise project folder and try generating the soundbank again. If succesful, the Soundbank Log should contain no errors.
+
+![sb5](../../../media/wwise-guide/wwise-soundbank-5.png)
+
+
+## Generating Soundbanks in Unreal
 
 ## Playing Sounds
 
