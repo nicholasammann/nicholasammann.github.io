@@ -5,7 +5,9 @@ cover:  /media/wwise-guide/wwise-logo.png
 tagline: Communicating with Wwise via UE4 Blueprints
 ---
 
-With little Wwise and virtually no Unreal experience, I found myself in charge of audio implementation for a project that was a year into development. This is a collection of the information I wish I could have found online on integrating a Wwise project with an Unreal 4 project, covering: how to generate soundbanks in Wwise and Unreal, our options in regards to playing sounds in-engine (and why we choose one option over the other), how to set Wwise parameters and states, and how to fix some common bugs.
+With little Wwise and virtually no Unreal experience, I found myself in charge of audio implementation for a project that was a year into development. This is a collection of the information I wish I could have found online when I started.
+
+On the topic of integrating a Wwise project with an Unreal 4 project, I've tried to cover: how to generate soundbanks in Wwise and Unreal, the options in regards to playing sounds in-engine (and why we choose one option over the other), how to set Wwise parameters and states, and how to fix some common bugs.
 
 The game being used in this example is an academic project, Takowana County, for which I did audio implementation. The corresponding Wwise project created by the audio team is the subject of any Wwise-related screenshots.
 
@@ -60,6 +62,21 @@ Our events need to know which soundbank they belong to - let's highlight all of 
 In the dropdown menu, select your new Audiokinetic Bank asset, then save.
 ![ue-sb6](../../../media/wwise-guide/unreal-soundbank-6.png)
 
+At this point, we should be ready to generate our soundbanks. Under the Build tab, select Generate Soundbanks. In the pop-up window, select your soundbank and platform, then click Generate.
+![ue-sb7](../../../media/wwise-guide/unreal-soundbank-7.png)
+![ue-sb8](../../../media/wwise-guide/unreal-soundbank-8.png)
+
+Oh no, it failed!
+![ue-sb9](../../../media/wwise-guide/unreal-soundbank-9.png)
+
+Turns out we forgot to check out a very special, very irritating file from our Perforce repository. It's called TempDefinitionFile.txt, and it keeps track of which events belong to which soundbanks (the file is in plain text format, you can open it in a text editor and read it if you're inclined).
+![ue-sb10](../../../media/wwise-guide/unreal-soundbank-10.png)
+
+We also forgot to check out the folder where Unreal puts our generated soundbanks - in my project, it's a folder called "WwiseAudio" (in all honesty, this folder existed before I joined the team and I don't know how it got there). It should have files named similarly to your soundbanks. Check out the entire folder from your repository.
+![ue-sb11](../../../media/wwise-guide/unreal-soundbank-11.png)
+
+Look at that! We've got soundbanks now! We have some warnings (mine are occurring because I've imported events for the purpose of this example that being used elsewhere in the project), but as long as we get the message "LogAk: Warning: Wwise command-line completed with warnings." the soundbanks have been generated.
+![ue-sb12](../../../media/wwise-guide/unreal-soundbank-12.png)
 
 
 ## Playing Sounds
