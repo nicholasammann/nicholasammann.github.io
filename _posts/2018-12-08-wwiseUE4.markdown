@@ -72,11 +72,10 @@ Oh no, it failed!
 Turns out we forgot to check out a very special, very irritating file from our Perforce repository. It's called TempDefinitionFile.txt, and it keeps track of which events belong to which soundbanks (the file is in plain text format, you can open it in a text editor and read it if you're inclined).
 ![ue-sb10](../../../media/wwise-guide/unreal-soundbank-10.png)
 
-We also forgot to check out the folder where Unreal puts our generated soundbanks - in my project, it's a folder called "WwiseAudio" (in all honesty, this folder existed before I joined the team and I don't know how it got there). It should have files named similarly to your soundbanks. Check out the entire folder from your repository.
+We also forgot to check out the folder where Unreal puts our generated soundbanks - in my project, it's a folder called "WwiseAudio" (in all honesty, this folder existed before I joined the team and I don't know how it got there). It should have files named similarly to your soundbanks. Check out the entire folder from your repository, then try generating the soundbanks in Unreal again.
 ![ue-sb11](../../../media/wwise-guide/unreal-soundbank-11.png)
-
-Look at that! We've got soundbanks now! We have some warnings (mine are occurring because I've imported events for the purpose of this example that being used elsewhere in the project), but as long as we get the message "LogAk: Warning: Wwise command-line completed with warnings." the soundbanks have been generated.
 ![ue-sb12](../../../media/wwise-guide/unreal-soundbank-12.png)
+Look at that! We've got soundbanks now! We have some warnings (mine are occurring because I've imported events for the purpose of this example that being used elsewhere in the project), but as long as we get the message "LogAk: Warning: Wwise command-line completed with warnings", then the soundbanks have been generated.
 
 
 ## Playing Sounds
