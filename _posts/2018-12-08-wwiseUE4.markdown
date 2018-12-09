@@ -5,11 +5,11 @@ cover:  /media/wwise-guide/wwise-logo.png
 tagline: Communicating with Wwise via UE4 Blueprints
 ---
 
-An introduction to integrating a Wwise project with an Unreal 4 project, covering: how to generate soundbanks in Wwise and Unreal, our options in regards to playing sounds in-engine (and why we choose one option over the other), how to set Wwise parameters and states, and how to fix some common bugs.
+With little Wwise and virtually no Unreal experience, I found myself in charge of audio implementation for a project that was a year into development. This is a collection of the information I wish I could have found online on integrating a Wwise project with an Unreal 4 project, covering: how to generate soundbanks in Wwise and Unreal, our options in regards to playing sounds in-engine (and why we choose one option over the other), how to set Wwise parameters and states, and how to fix some common bugs.
 
 The game being used in this example is an academic project, Takowana County, for which I did audio implementation. The corresponding Wwise project created by the audio team is the subject of any Wwise-related screenshots.
 
-This guide assumes you have a Wwise project available for use, but not much experience with Wwise or Unreal. Some of the described bugs are caused read/write file access issues due to Perforce, which you can disregard if you aren't using version control (but please, use version control software.) 
+This guide assumes you have both a Wwise project and an Unreal project available for use, but not much experience with Wwise or Unreal. You will also need the Wwise plugin for Unreal installed. Some of the described bugs are caused read/write file access issues due to Perforce, which you can disregard if you aren't using version control (but please, use version control software.)
 
 Wwise 2018 and Unreal 4.20 were used for this project.
 
@@ -41,9 +41,25 @@ To be safe, we'll check out the entire Wwise project folder and try generating t
 
 ## Generating Soundbanks in Unreal
 
-Before getting into Unreal, we want to make sure it understands how to generate it's representation of the soundbanks. To do this, Wwise needs to be open to communication, so we need to make sure the option "Enable Wwise Authoring API" is enabled in our User Preferences in Wwise. More information on the Wwise Authoring API can be found [here.](https://www.audiokinetic.com/library/2017.1.9_6501/?source=SDK&id=waapi.html)
+Before getting into Unreal, we want to make sure it understands how to generate its representation of the soundbanks. To do this, Wwise needs to be open to communication, so we need to make sure the option "Enable Wwise Authoring API" is enabled in our User Preferences in Wwise. More information on the Wwise Authoring API can be found [here.](https://www.audiokinetic.com/library/2017.1.9_6501/?source=SDK&id=waapi.html)
 
 ![ue-sb1](../../../media/wwise-guide/unreal-soundbank-1.png)
+
+Next, we need some actual sound events to go into our soundbanks. Let's open up the Wwise API Picker window in Unreal, then drag-and-drop some of our Wwise events into the Content Browser.
+
+![ue-sb2](../../../media/wwise-guide/unreal-soundbank-2.png)
+![ue-sb3](../../../media/wwise-guide/unreal-soundbank-3.png)
+
+We also need to create a soundbank to hold our imported sounds. Right-click in the Content Browser and navigate to the Audiokinetic submenu, then create an Audiokinetic Bank.
+![ue-sb4](../../../media/wwise-guide/unreal-soundbank-4.png)
+
+There it is! In this case, I've named it "Example Bank".
+![ue-sb5](../../../media/wwise-guide/unreal-soundbank-5.png)
+
+Our events need to know which soundbank they belong to - let's highlight all of our newly created events, right-click to bring up the context menu, then click Edit.
+In the dropdown menu, select your new Audiokinetic Bank asset, then save.
+![ue-sb6](../../../media/wwise-guide/unreal-soundbank-6.png)
+
 
 
 ## Playing Sounds
