@@ -16,11 +16,6 @@
             </container>
         </div>
     </a>
-        
-    {% if post.excerpt %}
-        <p>{{ post.excerpt }}</p>
-        <a href="{{ post.url | prepend: site.baseurl }}"><p style="text-align:center">Read More</p></a>
-    {% endif %}
     </div>
 {% endfor %}
 
