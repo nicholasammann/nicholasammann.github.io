@@ -30,6 +30,7 @@ While the soundbanks are generating, you'll see the following window. Looks like
 Let's investigate further.
 
 ![sb4](../../../media/wwise-guide/wwise-soundbank-4.png)
+![sb4](../../../media/wwise-guide/wwise-soundbank-4-5.png)
 
 The error (being unable to open the file) is caused in this case by being unable to open the files with write permission because we haven't checked them out in Perforce. An indication of this is that all the files in question are in the hidden .cache folder of our Wwise project.
 
