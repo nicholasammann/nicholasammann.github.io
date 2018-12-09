@@ -5,6 +5,8 @@ cover:  /media/wwise-guide/wwise-logo.png
 tagline: Communicating with Wwise via UE4 Blueprints
 ---
 
+## Overview
+
 With little Wwise and virtually no Unreal experience, I found myself in charge of audio implementation for a project that was a year into development. This is a collection of the information I wish I could have found online when I started.
 
 On the topic of integrating a Wwise project with an Unreal 4 project, I've tried to cover: how to generate soundbanks in Wwise and Unreal, the options in regards to playing sounds in-engine (and why we choose one option over the other), how to set Wwise parameters and states, and how to fix some common bugs.
@@ -14,6 +16,7 @@ The game being used in this example is an academic project, Takowana County, for
 This guide assumes you have both a Wwise project and an Unreal project available for use, but not much experience with Wwise or Unreal. You will also need the Wwise plugin for Unreal installed. Some of the described bugs are caused read/write file access issues due to Perforce, which you can disregard if you aren't using version control (but please, use version control software.)
 
 Wwise 2018 and Unreal 4.20 were used for this project.
+
 
 ## Generating Soundbanks in Wwise
 
@@ -80,7 +83,46 @@ Look at that! We've got soundbanks now! We have some warnings (mine are occurrin
 
 ## Playing Sounds
 
+All our soundbanks have (hopefully) been generated and it's time to play some sounds! We do this by "posting" events from an actor, which means we are using that actor's sound emitter to play our sound. It's important to note that even if a sound isn't positional, it still needs an actor's emitter to be played.
+
+Here are the three blueprint nodes for posting events: Post Event, Post Event at Location, and Post and Wait for End of Event.
+![play-1](../../../media/wwise-guide/play-1.png)
+
+Post Event is the simplest node - it plays a sound at the location of the actor. This means that if the actor's pivot point is not at an ideal location for playing sound (e.g. the feet of a character) then you might notice strange occlusion or attenuation.
+
+You might have noticed that Post Event at Location doesn't have an input slot for an actor - that's because Unreal creates a temporary object at the specified location in order to play the sound. This makes it possible to play sound events at positions chosen dynamically. It also presents a solution to our "less-than-ideal pivot point" problem; we can get the actor's location, offset it (for example, add the height of the character to adjust the position from the feet to the head), then call Post Event at Location.
+
+Our third option is Post and Wait for End of Event. It's similar to Post Event, but the Completed execution path will be run when Wwise notifies Unreal that all sound events associated with your Wwise event have ended. KEEP IN MIND that this means if your event in Wwise is playing multiple sounds under the hood, then Unreal won't be notified until ALL of those sounds have finished playing. Also, if your audio buses are utilizing instance limiting and the sound gets cut off prematurely, Unreal will NOT be notified that the sound event completed because it never technically finished playing.
+
+
 ## Setting Parameters / RTPC's
 
+Unless you are only doing basic audio implemenation, you will find yourself (or your sound designer) wanting to make use of parameters in Wwise. These are called RTPC's or Real-Time Parameter Controls. Our blueprint node for this is called Set RTPCValue.
+![rtpc-1](../../../media/wwise-guide/rtpc-1.png)
+
+In Wwise, RTPC's are associated with an event, audio bus, actor-mixer, or other fancy Wwise item. Even if you aren't creating audio content or porting raw content into the Wwise project, it's still good to know your way around Wwise. You won't need to bother your sound designer over minor changes and you won't be blocked from working if your sound designer isn't immediately available. The Property Editor is where we edit RTPC's.
+![rtpc-2](../../../media/wwise-guide/rtpc-2.png)
+
+This particular event was for adjusting a low-pass filter based on how directly the player in our game was looking at a clue. A mechanic in the game is to take pictures of clues with a camera and we needed to tell the player when they were capturing the clue well enough.
+
+But let's say we didn't want the sound to respond immediately, in case the player decides the violently jerk the camera around. We can specify a time (in milliseconds) to interpolate the change over. In this case, I chose 200ms.
+![rtpc-3](../../../media/wwise-guide/rtpc-3.png)
+
+Notice that I didn't specify an Actor to set the RTPC on - this is because Wwise allows us to set RTPC's globally, not just per object. It is useful if you don't know which actor a sound is being played from or if you want to affect multiple sounds being played from different actors. Conversely, setting an RTPC per object is handy if you want two of the same sound events to sound differently.
+
+
 ## Setting Wwise States
+
+Wwise supports another feature called States. In Unreal, we can set states globally with the Set State blueprint node.
+![state-1](../../../media/wwise-guide/state-1.png)
+
+In our project, we used them to adjust certain music events based on game progression. In our Wwise project, there were three states for this piece of music.
+![state-2](../../../media/wwise-guide/state-2.png)
+![state-3](../../../media/wwise-guide/state-3.png)
+![state-4](../../../media/wwise-guide/state-4.png)
+
+So in our game, we changed the state like this:
+![state-5](../../../media/wwise-guide/state-5.png)
+
+
 
