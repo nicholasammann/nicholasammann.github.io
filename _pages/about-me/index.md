@@ -9,7 +9,11 @@ cover: /media/homepage_banner.jpg
     <img class="profile-pic" src="/media/profile_pic.jpg">
 </p>
 
-I am a software engineer currently pursuing a Bachelor of Science in Computer Science and Real-Time Interactive Simulation at [DigiPen Institute of Technology](https://www.digipen.edu).
+Currently, I am preparing to join Microsoft this June.
+
+I spent 3 months as an intern with the Developer Tools team at Magic Leap in 2018, helping to diagnose problems with the workflow for augmented reality app developers who would be using the suite of custom tools.
+
+I graduated from [DigiPen Institute of Technology](https://www.digipen.edu) with a Bachelor's of Science in Computer Science and Real-Time Interactive Simulation.
 I've worked on academic project teams of 8-12 people creating video games in custom game engines written in C++.
 
 Most of my project experience is in tools programming, although I have some knowledge of core engine and graphics programming.
