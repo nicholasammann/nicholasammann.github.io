@@ -14,12 +14,12 @@ Currently, I am preparing to join Microsoft this June.
 I spent 3 months as an intern with the Developer Tools team at Magic Leap in 2018, helping to diagnose problems with the workflow for augmented reality app developers who would be using the suite of custom tools.
 
 I graduated from [DigiPen Institute of Technology](https://www.digipen.edu) with a Bachelor's of Science in Computer Science and Real-Time Interactive Simulation.
-I've worked on academic project teams of 8-12 people creating video games in custom game engines written in C++.
+I worked on academic project teams of 8-12 people creating video games in custom game engines written in C++.
 
 Most of my project experience is in tools programming, although I have some knowledge of core engine and graphics programming.
 I enjoy diving into a codebase and figuring out how to write tools that work with the existing code.
-Currently, I am working on a [narrative-focused mystery/horror game](http://nickammann.com/works-in-progress/) in Unreal 4 with a team of artists, designers, and programmers.
-I am also developing a [graphics framework](https://github.com/nicholasammann/elba), which I am using to explore image processing and real-time post-processing effects.
+
+I am developing a [graphics framework](https://github.com/nicholasammann/elba) in my free time, which I am using to explore image processing and real-time post-processing effects.
 
 
 <!--
