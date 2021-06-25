@@ -9,7 +9,7 @@ cover: /media/homepage_banner.jpg
     <img class="profile-pic" src="/media/profile_pic.jpg">
 </p>
 
-I joined the Azure Media Services Infrastructure at Microsoft in 2019 with the goal of supporting the various teams under Azure Media Services. My responsibilities consist mainly of maintaining/improving internal services to support fellow developers and constructing processes for production-scale resource buildout. Part of the infrastructure workload is also investigating the feasibility of new technologies for both customer and internal services.
+I joined the Azure Media Services Infrastructure at Microsoft in 2019 with the goal of supporting the various teams under Azure Media Services. My responsibilities consist mainly of improving internal services to support fellow developers and constructing processes for production-scale resource buildout. Part of the infrastructure workload is also investigating the feasibility of new technologies for both customer and internal services.
 
 Before joining Microsoft, I spent 3 months as an intern with the Developer Tools team at Magic Leap, helping to diagnose problems with the workflow for augmented reality app developers who would be using the suite of custom tools.
 
