@@ -7,7 +7,6 @@ cover: /media/homepage_banner.jpg
 
 <p>
     <img class="profile-pic" src="/media/profile_pic.jpg">
-    <img class="dog-pic" src="/media/bailey.jpg">
 </p>
 
 Most of my academic project experience is in tools programming, although I have some knowledge of core engine and graphics programming.
@@ -23,3 +22,5 @@ Much of my time at DigiPen was spent working on academic project teams of 8-12 p
 As a side project, I began developing a [graphics framework](https://github.com/nicholasammann/elba) targeting image processing and real-time post-processing effects.
 
 Outside of programming, I enjoy playing guitar, singing, and writing songs. I also like to cook, but spend most of my free time with my rascal of a dog, Bailey.
+
+<img class="dog-pic" src="/media/bailey.jpg">
