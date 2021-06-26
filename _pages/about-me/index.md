@@ -7,7 +7,7 @@ cover: /media/homepage_banner.jpg
 
 <p>
     <img class="profile-pic" src="/media/profile_pic.jpg">
-    <img class="profile-pic" src="/media/bailey.jpg">
+    <img class="dog-pic" src="/media/bailey.jpg">
 </p>
 
 Most of my academic project experience is in tools programming, although I have some knowledge of core engine and graphics programming.
