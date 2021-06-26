@@ -56,7 +56,7 @@ h1 {
 .profile-pic {
 
     // mobile
-    @media (min-width: 100px) and (max-width: 711px) {
+    @media (min-width: 100px) and (max-width: 600px) {
         margin: 0px;
         width: auto;
         height: auto;
@@ -64,7 +64,7 @@ h1 {
     }
 
     // computer
-    @media (min-width: 711px) and (max-width: 10000px) {
+    @media (min-width: 601px) and (max-width: 10000px) {
         margin: 8px 30px 3px 0px;
         width: 215px;
         height: 215px;
@@ -75,7 +75,7 @@ h1 {
 .dog-pic {
 
   // mobile
-  @media (min-width: 100px) and (max-width: 600px) {
+  @media (min-width: 100px) and (max-width: 711px) {
       margin: 0px;
       width: auto;
       height: auto;
@@ -83,7 +83,7 @@ h1 {
   }
 
   // computer
-  @media (min-width: 601px) and (max-width: 10000px) {
+  @media (min-width: 611px) and (max-width: 10000px) {
       margin: 8px 30px 3px 0px;
       width: 215px;
       height: 215px;
